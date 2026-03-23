@@ -1,0 +1,17 @@
+{
+  "name": "recall-it-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "login": "npx wrangler login",
+    "secret": "npx wrangler secret put ANTHROPIC_API_KEY",
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241224.0",
+    "typescript": "^5.7.2",
+    "wrangler": "^4.76.0"
+  }
+}

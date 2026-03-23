@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+proxy/node_modules/
+
+# Build output
+dist/
+
+# Environment & secrets
+.env
+.env.local
+.dev.vars
+
+# Wrangler
+.wrangler/
+proxy/.wrangler/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
